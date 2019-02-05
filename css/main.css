@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: honeydew;
+}
+
+h1{
+    color:brown;
+    font-family: Cambria;
+    background-color: palegreen;
+    border:4px solid green;
+    border-radius: 15px;
+}
+table  {
+    border: 5px solid black;
+    border-radius: 5px;
+
+}
+th,td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 12px;
+
+}
+th{
+    text-align: left;
+
+}
+th.results {
+    color:brown;
+    text-align: center;
+   
+}
+p{
+    color:red;
+    font-size: 15px;
+    font-family: Cambria;
+    
+}
+p.fail{
+    color:black;
+    font-size: 18px;
+    font-family: fantasy;
+}
+caption{
+    font-size: 18px;
+    font-family: Verdana;
+}
