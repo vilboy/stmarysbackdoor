@@ -227,28 +227,6 @@ $conn->close();
 
 </center>
 </div>
-<?php 
- 
-// Update the path below to your autoload.php, 
-// see https://getcomposer.org/doc/01-basic-usage.md 
-require_once '/path/to/vendor/autoload.php'; 
- 
-use Twilio\Rest\Client; 
- 
-$sid    = "AC2d77588a77441461335854c80e8ffcee"; 
-$token  = "f23a9146242564fcb6d5c5f068570708"; 
-$twilio = new Client($sid, $token); 
- 
-$message = $twilio->messages 
-                  ->create("whatsapp:+919989939238", // to 
-                           array( 
-                               "from" => "whatsapp:+14155238886",       
-                               "body" => "stmarys backdoor working..." 
-                           ) 
-                  ); 
- 
-print($message->sid);
-?>
 
 </body>
 </html>

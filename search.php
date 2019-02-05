@@ -69,7 +69,7 @@
       <?php
 
  include('log.php');
-
+$c="";
 
 if(isset($_GET['submit']))
 {
